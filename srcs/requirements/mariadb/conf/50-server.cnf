@@ -1,0 +1,11 @@
+[mysqld]
+# MariaDB server configuration
+
+datadir=/var/lib/mysql
+# Directory where MariaDB stores database files
+
+bind-address=0.0.0.0
+# Listen on all network interfaces inside the container
+
+port=3306
+# MariaDB server port
